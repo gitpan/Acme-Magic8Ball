@@ -1,14 +1,19 @@
---- #YAML:1.0
+---
 name: Acme-Magic8Ball
-version: 1.1
+version: 1.2
 author:
-  - Simon Wistow <simon@thegestalt.org>
+  - 'Simon Wistow <simon@thegestalt.org>'
 abstract: ask the Magic 8 Ball a question
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Test::More: 0
 provides:
   Acme::Magic8Ball:
     file: lib/Acme/Magic8Ball.pm
-    version: 1.1
-generated_by: Module::Build version 0.25
+    version: 1.2
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
